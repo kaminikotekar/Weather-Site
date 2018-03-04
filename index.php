@@ -79,15 +79,15 @@ p{
 <body>
 
 <div class="container">
-<p class="h1 " style="color: white">What's the Weather?</p>
+<p class="h1 " style="color: #0069D9">What's the Weather?</p>
 <p class="h5 my-md-3" style="color: white"> Enter the Name or City</p>
 	<form>
   <div class="form-group row">
-  <div class="col-sm-10">
+  <div class="col-sm-10 mb-2">
     <input type="text" name="city" class="form-control" id="Input" aria-describedby="emailHelp" placeholder="Eg. London, Tokyo">
     </div>
     
-    <div class="col-sm-2">
+    <div class="col-sm-2 mb-2">
       <button type="submit" class="btn btn-primary">Submit</button>
      
  
