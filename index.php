@@ -52,6 +52,10 @@ $exists=true;
 .container{
 	width: 450px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
   html { 
 background: url(background2.jpg) no-repeat center center fixed; 
@@ -67,8 +71,9 @@ body{
     align-items: center;
     background: none;
 }
-p{
+#p{
   color: white;
+  font-size: 18px;
 }
 
                 
@@ -79,11 +84,11 @@ p{
 <body>
 
 <div class="container">
-<p class="h1 " style="color: #0069D9">What's the Weather?</p>
-<p class="h5 my-md-3" style="color: white"> Enter the Name or City</p>
+<p class="h1 " style="color: #55DAFD">What's the Weather?</p>
+<p id="p" class="my-md-3" style="color: white"> Enter the Name or City</p>
 	<form>
   <div class="form-group row">
-  <div class="col-sm-10 mb-2">
+  <div class="col-sm-9 mb-2">
     <input type="text" name="city" class="form-control" id="Input" aria-describedby="emailHelp" placeholder="Eg. London, Tokyo">
     </div>
     
